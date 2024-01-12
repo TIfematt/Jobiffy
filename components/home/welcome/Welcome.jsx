@@ -40,7 +40,7 @@ const Welcome = ({ searchTerm, setSearchTerm, handleClick }) => {
             source={icons.search}
             resizeMode='contain'
             style={styles.searchBtnImage}
-          />
+          /> 
         </TouchableOpacity>
       </View>
 
