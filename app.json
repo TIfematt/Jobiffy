@@ -4,7 +4,7 @@
     "slug": "job-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "scheme": "your-app-scheme",    
+    "scheme": "your-app-scheme",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -16,19 +16,29 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tifematt.jobapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.tifematt.jobapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "8c81880d-04ef-432a-bb5f-19e7f1f6459b"
+      }
+    }
   }
 }
